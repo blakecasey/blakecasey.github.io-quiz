@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(227, 222, 243);
+  margin: 0;
+}
+.header{
+  background-color: blueviolet;
+  height:18vh;
+  position:relative;
+}
+h1{
+  text-align:left;
+  font-size:2.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px; /* rounded corners */
+  padding: 25px;
+  margin-bottom: 10px;
+}
+.container{
+  width:50%;
+  height:190vh;
+  background-color:rgb(255, 255, 255);
+  margin-top:50px;
+  margin-right:25%;
+  margin-left:25%;
+  position:absolute;
+  padding:15px; 
+}
+.questions{
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px; /* rounded corners */
+  padding: 10px;
+  margin-bottom: 40px; 
+}
+.btn{
+  color:rgb(255, 255, 255);
+  background-color: #1e87ff;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding:15px;
+  font-size:1.5rem; 
+} 
+.lbl{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color:black;
+  font-size:1.5rem;      
+}
+p{
+  font-size:1.25rem;
+  text-indent:25px;
+  padding:0px;
+}
+#result{
+  font-size:1.25rem;
+  text-align: right;
+  margin-top:-50px; 
+}
